@@ -1,0 +1,167 @@
+/* font*/
+@font-face {
+    font-family: red-hat-display;
+    src: url(./../font/RedHatDisplay-VariableFont_wght.ttf);
+}
+
+body div a {
+    text-decoration: none;
+}
+
+body{
+    
+    text-align: center;
+    font-family: red-hat-display;
+    background-repeat: no-repeat;
+    background-size: top;
+}
+
+/*colors*/
+button{
+
+    background-color: hsl(245, 75%, 52%);
+    color:hsl(225, 100%, 98%) ;
+}
+
+div a {
+    color: hsl(224, 23%, 55%);
+}
+button:hover{
+    box-shadow: 5px 5px hsla(240, 10%, 79%, 0.568);
+}
+
+
+@media screen and (min-width: 1001px) {
+    body{
+        background-color:hsl(240, 9%, 96%) ;
+        background-image: url(./../images/pattern-background-desktop.svg);
+        padding: 10% 35% 15% 35%;
+    }
+    section{
+        background-color:rgb(247, 255, 255) ;
+        border-radius: 15px;
+        box-shadow:5px 10px hsla(240, 5%, 78%, 0.568) ;
+        padding-bottom: 5%;
+        font-size: large;
+    }
+    section img{
+        width: 100%;
+        height: auto;
+        border-top-right-radius:15px ;
+        border-top-left-radius: 15px;
+    }
+    
+    table{
+        width: 100%;
+        padding:0 5% 0 5%;
+    }
+    table tr td img{
+        width: 50%;
+        height: auto;
+        margin-left:50% ;
+    }
+    button{
+        border-radius: 15px;
+        width: 75%;
+        height:10vh;
+    }
+    body div{
+        
+        margin: 5% 0 5% 0;
+    }
+    
+}
+@media screen and (max-width: 1000px) {
+    body{
+        background-color:hsl(240, 9%, 96%) ;
+        background-image: url(./../images/pattern-background-mobile.svg);
+        padding: 5% 20% 10% 20%;
+    }
+    section{
+        background-color:rgb(247, 255, 255) ;
+        border-radius: 15px;
+        box-shadow:5px 10px hsla(240, 5%, 78%, 0.568) ;
+        padding-bottom: 5%;
+        font-size: x-small;
+    }
+    section img{
+        width: 100%;
+        height: auto;
+        border-top-right-radius:15px ;
+        border-top-left-radius: 15px;
+    }
+    article{
+        margin: 5%;
+    }
+    
+    table{
+        width: 95%;
+        margin-bottom: 10%;
+        margin-right: 10%;
+    }
+    table tr td img{
+        width: 60%;
+        height: auto;
+        margin-left:40% ;
+    }
+    tr td {
+        padding-right: 5%;
+    }
+    button{
+        border-radius: 15px;
+        width: 80%;
+        height:8vh;
+    }
+    body div{
+        
+        margin: 5% 0 5% 5%;
+    }
+    
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+  
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
